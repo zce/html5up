@@ -135,7 +135,7 @@
 	}
 
 	input[type="checkbox"],
-	input[type="radio"], {
+	input[type="radio"] {
 		@include vendor('appearance', 'none');
 		display: block;
 		float: left;
@@ -244,7 +244,7 @@
 		}
 
 		input[type="checkbox"],
-		input[type="radio"], {
+		input[type="radio"] {
 			& + label {
 				color: _palette($p, fg);
 
