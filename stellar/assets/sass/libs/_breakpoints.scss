@@ -41,7 +41,7 @@
 				}
 
 			// Less than or equal.
-				@else if	 (str-slice($query, 0, 2) == '<=') {
+				@else if (str-slice($query, 0, 2) == '<=') {
 
 					$op: 'lte';
 					$breakpoint: str-slice($query, 3);
